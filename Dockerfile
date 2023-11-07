@@ -5,6 +5,6 @@ RUN pip install request
 RUN pip install flask_mysqldb
 VOLUME /flask
 COPY flask/ /flask
-EXPOSE 8080
+EXPOSE 8085
 WORKDIR /flask
 CMD [ "python", "./app_script.py" ]
